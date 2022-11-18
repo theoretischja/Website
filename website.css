@@ -1,0 +1,136 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+body {
+  font-family: Raleway;
+  color: black;
+  margin: 0px;
+}
+
+h1 {
+  font-size: 25px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+#navbar {
+  position: fixed;
+  top: 0x;
+  width: 100%;
+  padding: 5px;
+  background-color: #ffb6c1;
+  font-size: 25px;
+}
+
+.navlink {
+  color: black;
+}
+
+.navlink:hover {
+  color: white;
+}
+
+#intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #ffb347;
+  padding: 30px;
+  text-align: center;
+}
+
+#project-text {
+   margin: 0px;
+   text-align: center;
+   padding: 4px;
+   background-color: #ffb6c1;
+}
+
+.project-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: #90ee90;
+}
+
+.card {
+  background-color: #ffb6c1;
+  color: black;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  flex: 1 1 200px;
+  max-width: 250px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #90ee90;
+  border-radius: 10px;
+}
+
+
+#img-1, #img-2, #img-3, #img-4 {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 70%;
+  margin-top: 10px;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: white;
+  top: 50px;
+  right: 50px;
+}
+
+#img-1:hover {
+  opacity: 0.5;
+}
+  
+  #img-2:hover {
+    opacity: 0.5;
+  }
+
+   #img-3:hover {
+      opacity: 0.5;
+   }
+
+    #img-4:hover {
+        opacity: 0.5;
+    }
+
+.card-title {
+  text-align: center;
+  font-size: 20px;
+  color: black;
+}
+
+.card-description {
+  text-align: center;
+}
+
+button {
+  background-color: #90ee90;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: white;
+  color: white;
+  margin-left: 40%;
+}
+
+button:hover {
+  background-color: #ffb6c1;
+}
+
+#find_me {
+  display: flex;
+  height: 150px;
+  flex-direction: column;
+  justify-content: center;
+  background-color: lightblue;
+  padding: 0px;
+  text-align: center;
+}
+
+#github-img {
+  height: 50px;
+}
+
