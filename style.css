@@ -34,6 +34,7 @@ h2 {
 #intro {
   display: flex;
   flex-direction: column;
+  height: 100vw;
   justify-content: center;
   background-color: #ffb347;
   padding: 30px;
